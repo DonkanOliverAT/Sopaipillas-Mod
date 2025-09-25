@@ -1,0 +1,25 @@
+module Base
+{
+	item Sopaipilla
+	{
+		DisplayName             = Sopaipilla,
+		DisplayCategory         = Food,
+		Type                    = Food,
+		Weight                  = 0.1,
+		Icon                    = Dough,
+		IsCookable              = TRUE,
+		RemoveNegativeEffectOnCooked = TRUE,
+		MinutesToCook           = 20,
+		MinutesToBurn           = 50,
+		DaysFresh               = 5,
+		DaysTotallyRotten       = 12,
+		HungerChange            = -20,
+		ThirstChange            = 15,
+		UnhappyChange           = 10,
+		Calories                = 220,
+		Carbohydrates           = 100,
+		Lipids                  = 6.66,
+		Proteins                = 18,
+		WorldStaticModel        = BreadDough,
+	}
+}
