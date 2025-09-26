@@ -6,7 +6,7 @@ module Base
 		DisplayCategory         = Food,
 		Type                    = Food,
 		Weight                  = 0.1,
-		Icon                    = Dough,
+		Icon                    = FriedSopaipilla,
 		IsCookable              = TRUE,
 		RemoveNegativeEffectOnCooked = TRUE,
 		MinutesToCook           = 20,
